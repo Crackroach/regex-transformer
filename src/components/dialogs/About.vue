@@ -29,7 +29,8 @@
         </h4> -->
             <v-card-text>
                 <div>
-                    <h1>{{ $t("pages.about.title") }}</h1>
+                    <h1>{{ $t("pages.about.title") }} - version 1.2.0</h1>
+                    <br />
                     <p v-html="$t('pages.about.paragraph1')"></p>
                     <p>{{ $t("pages.about.paragraph2") }}</p>
                     <p v-html="$t('pages.about.paragraph3')"></p>
@@ -41,6 +42,7 @@
 
                     <h3>Changes</h3>
                     <ul>
+                        <li>1.2.0 - Added ability to customize regex flags</li>
                         <li>1.1.0 - Update app responsiveness</li>
                         <li>1.0.0 - Initial build</li>
                     </ul>

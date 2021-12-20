@@ -48,7 +48,7 @@
             "paragraph4": "Regex-Transformer aims to ease that process without having to do some copy-paste of the formula and source text. It also ease the process by having the result available after each transformations.<br/><br/><b>No more redoing everything because one step was inserting a problem!</b>",
             "contactMe": "If you find a bug or want to propose an upgrade, feel free to <a href=\"mailto:alexisdiamond@hotmail.ca\">send me an email</a>.",
             "whatsNext": "What's next?",
-            "whatsNextParagraph1": "Here is a list of what to expect next. Depending on suggestions and how much free time I have, this list may expand. Order is by development priority.<br /><ul><li>Customize Regex flags.</li><li>Repositionning of step in the process. I.e move step 3 to step 1. This will allow for inserting steps at the beginning.</li><li>Built-in functions like toUppercase, toLowercase, toSnakecase, etc.</li><li>Custom javascript functions.</li><li>Ability to save, load and export steps.</li></ul>"
+            "whatsNextParagraph1": "Here is a list of what to expect next. Depending on suggestions and how much free time I have, this list may expand. Order is by development priority.<br /><ul><li><del>Customize Regex flags.</del> COMPLETED</li><li>Repositionning of step in the process. I.e move step 3 to step 1. This will allow for inserting steps at the beginning.</li><li>Built-in functions like toUppercase, toLowercase, toSnakecase, etc.</li><li>Custom javascript functions.</li><li>Ability to save, load and export steps.</li></ul>"
         }
     }
 }
