@@ -1,0 +1,54 @@
+{
+    "components": {
+        "regexpanel": {
+            "regex": "Regex",
+            "regularExpression": "Regular Expression",
+            "insertRegexHere": "insert your regular expression here",
+            "options": "Options",
+            "replace": "Replace with"
+        },
+        "transformationPanel": {
+            "remove": "Remove Transformation"
+        },
+        "navDrawer": {
+            "add": "Add  step"
+        },
+        "sourcePanel": {
+            "source": "Source",
+            "result": "Result"
+        }
+    },
+    "dialogs": {
+        "removeTransformation": {
+            "title": "You are about the delete this transformation.",
+            "text": "You are about to delete this transformation. There is no undo. Once deleted, this transformation will be lost forever.<br/><br/>Are you sure you want to proceed?"
+        }
+    },
+    "shared": {
+        "accept": "Accept",
+        "cancel": "Cancel",
+        "regex": {
+            "g": "<b>G</b>lobal; Don't return after first match",
+            "i": "<b>I</b>gnore case; Case insensitive match",
+            "m": "<b>M</b>ultiline; <i>^</i> and <i>$</i> match start/end of line",
+            "u": "<b>U</b>nicode; Match with full unicode.",
+            "y": "Stick<b>y</b>; Anchor to start of pattern, or at the end of the most recent match",
+            "s": "<b>S</b>ingle line; Dot matches newline"
+        }
+    },
+    "navigation": {
+        "back": "Back"
+    },
+    "pages": {
+        "about": {
+            "title": "About Regex-Transformer",
+            "paragraph1": "Regex-Transformer is born in an attempt to build a tool that would help when transforming text resources with <a href=\"https://en.wikipedia.org/wiki/Regular_expression\">regex</a> through multiple steps.",
+            "paragraph2": "In my day-to-day work, I have to transform text into classes, JSON objects or even SQL queries. This process is often than not a multiple stage transformations.",
+            "paragraph3": "I use multiple different tools to achieve what I aim to achieve with Regex-Transformer. Next is the list of different software I have in my 'stack':<br/><ul><li><b><a href=\"https://visualstudio.microsoft.com/en/\">Visual Studio Code</a></b> <i>find-replace</i> function with regex, along with built-in transformations (F1 + 'Transform to uppercase').</li><li><b><a href=\"https://regex101.com/\">Regex101</a></b> to help test and understand the regex I was building.</li><li><b><a href=\"https://nimbletext.com/\">NimbleText</a></b> is an excellent replace application that you can use for free. In my personal experience, I used more for CSV to SQL than anything else.</li></ul>",
+            "paragraph4": "Regex-Transformer aims to ease that process without having to do some copy-paste of the formula and source text. It also ease the process by having the result available after each transformations.<br/><br/><b>No more redoing everything because one step was inserting a problem!</b>",
+            "contactMe": "If you find a bug or want to propose an upgrade, feel free to <a href=\"mailto:alexisdiamond@hotmail.ca\">send me an email</a>.",
+            "whatsNext": "What's next?",
+            "whatsNextParagraph1": "Here is a list of what to expect next. Depending on suggestions and how much free time I have, this list may expand. Order is by development priority.<br /><ul><li>Customize Regex flags.</li><li>Repositionning of step in the process. I.e move step 3 to step 1. This will allow for inserting steps at the beginning.</li><li>Built-in functions like toUppercase, toLowercase, toSnakecase, etc.</li><li>Custom javascript functions.</li><li>Ability to save, load and export steps.</li></ul>"
+        }
+    }
+}
